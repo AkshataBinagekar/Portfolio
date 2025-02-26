@@ -1,0 +1,117 @@
+.about{
+    text-align: center;
+ 
+    padding-top: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 56%;
+    height: 560px;
+ margin-left: 40%;
+margin-top: -500px;
+  color: #B6B2C4;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+}
+.intro{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 35px;
+}
+.profileImg img{
+  height: 300px;
+  width: 180px;
+  align-items: center;
+  border:4px solid #D26FB4 ;
+}
+.aboutme h2{
+color: #D26FB4;
+font-family: "Poppins", serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 7px;
+}
+
+.aboutme p{
+ 
+  font-size: 14px;
+text-align: start;
+font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+
+}
+.aboutme span{
+
+ text-align: start;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @media (max-width: 768px) {
+ 
+  .main{
+margin-left: 170px;
+margin-top: -20px;
+   display: block;
+   width: auto;
+  }
+  .card{
+ 
+    display: block;
+   gap: 20px;
+  width: 1380px;
+  padding: 10px;
+  }
+  .about{
+    display: block;
+ margin-top: 150px;
+ 
+  }
+    } */
+
+@media (max-width: 480px) {
+ 
+  .main{
+margin-top: -30px;
+margin-left: -10px;
+   display: block;
+   width: auto;
+  }
+  .card{
+ 
+    display: block;
+  width: 1290px;
+  padding: 10px;
+  }
+  .about{
+    display: block;
+ margin-top: 100px;
+
+ width: 370px;
+ height: 1100px;
+ margin-left: 20px;
+  }
+  .intro{
+    margin-top: 110px;
+   display: block;
+  }
+  .profileImg{
+    margin-bottom: 20px;
+  }
+  .aboutme h2{
+    color: #D26FB4;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    }
+   
+    .aboutme p{
+      text-align: center;
+    }
+    }
+

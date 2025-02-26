@@ -1,0 +1,136 @@
+.work{
+    text-align: center;
+ 
+    padding-top: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 56%;
+    height: 560px;
+ margin-left: 40%;
+margin-top: -500px;
+  color: #B6B2C4;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+}
+
+.work-experience1{
+    display:block;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    padding: 10px;
+    background: #130B30;
+    border: 2px solid #D26FB4;
+    border-radius: 40px;
+    width: 62%;
+    height: 22%;
+    position: relative;
+    top: 30px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.work-experience2{
+    display: block;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    padding: 10px;
+    background: #130B30;
+    border: 2px solid #D26FB4;
+    border-radius: 40px;
+    width: 62%;
+    height: 22%;
+    position: relative;
+    top: 62px;
+    left:240px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.work-experience3{
+    display: block;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    padding: 10px;
+    background: #130B30;
+    border: 2px solid #D26FB4;
+    border-radius: 40px;
+    width: 62%;
+    height: 22%;
+    position: relative;
+    top: 90px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .experience{
+    margin-top: -30px;
+margin-left: -10px;
+   display: block;
+   width: auto;
+   margin-bottom: 40px;
+  }
+  .card{
+ 
+    display: block;
+  width: 1290px;
+  padding: 10px;
+  }
+  .work{
+    display: block;
+    margin-top: 100px;
+   
+    width: 380px;
+    height:1000px;
+    margin-left: 20px;
+ 
+  }
+  
+  .work-experience1{
+  margin-top: 70px;
+  display:block;
+margin-left: -20px;
+height: 260px;
+  width: 220px;
+
+}
+.work-experience1 p,h4{
+ 
+margin-top: 10px;
+
+}
+.work-experience2{
+  margin-top: 10px;
+  display:block;
+  margin-left:-90px;
+  height: 260px;
+  width: 220px;
+}
+.work-experience2 p,h4{
+ 
+  margin-top: 18px;
+  
+  }
+.work-experience3{
+  margin-top: 10px;
+  display:block;
+  height: 260px;
+  width: 220px;
+}
+
+}

@@ -1,0 +1,129 @@
+.sample{
+    text-align: center;
+ 
+    padding-top: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 56%;
+    height: 560px;
+ margin-left: 40%;
+margin-top: -500px;
+  color: #B6B2C4;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+   
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    background: #130B30;
+    border-radius: 10px;
+    width: 92%;
+    height: 38%;
+    position: relative;
+    top: 30px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.mini-box a{
+    text-decoration: none;
+    color: #B6B2C4;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 400;
+}
+.mini-box a:hover{
+color: #D26FB4;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    background: #130B30;
+    border-radius: 10px;
+    width: 92%;
+    height: 38%;
+    position: relative;
+    top: 50px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+}
+.mini-box{
+  
+    text-align: center;
+    padding: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 32%;
+    height: 30%;
+  border: 2px solid #D26FB4;
+    top: 40px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+}
+
+@media (max-width: 480px) {
+  .project{
+    margin-top: -30px;
+margin-left: -10px;
+   display: block;
+   width: auto;
+   margin-bottom: 40px;
+  }
+  .card{
+ 
+    display: block;
+  width: 1290px;
+  padding: 10px;
+  }
+  .sample{
+    display: block;
+    margin-top: 100px;
+   
+    width: 380px;
+    height:1340px;
+    margin-left: 20px;
+ 
+  }
+  
+.box1{
+  margin-top: 70px;
+  display:block;
+
+  height: 700px;
+  width: 320px;
+}
+.box2{
+  margin-top: 10px;
+  display:flex;
+  height: 470px;
+  width: 320px;
+}
+.mini-box{
+  margin-top: 15px;
+  display: block;
+  height: auto;
+  width: 200px;
+  align-items: center;
+  margin-left: 40px;
+}
+}

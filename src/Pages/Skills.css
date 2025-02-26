@@ -1,0 +1,98 @@
+.tech{
+    text-align: center;
+ 
+    padding-top: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 56%;
+    height: 560px;
+ margin-left: 40%;
+margin-top: -500px;
+  color: #B6B2C4;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+}
+
+.card3{
+    text-align: center;
+    padding: 20px;
+    background: #130B30;
+    border-radius: 10px;
+    width: 92%;
+    height: 74%;
+    position: relative;
+    top: 40px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    line-height: 30px;
+}
+.content{
+    display: flex;
+   
+  gap: 7px;
+   
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 13px;
+
+}
+.content p{
+    display: flex;
+    align-items: center;
+ 
+  
+}
+.content span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #D26FB4;
+    color: #130B30;
+    padding: 2px;
+    gap: 5px;
+}
+
+@media (max-width: 480px) {
+  .skills{
+    margin-top: -30px;
+margin-left: -10px;
+   display: block;
+   width: auto;
+  }
+  .card{
+ 
+    display: block;
+  width: 1290px;
+  padding: 10px;
+  }
+  .tech{
+    display: block;
+    margin-top: 100px;
+   
+    width: 380px;
+    height: 1100px;
+    margin-left: 20px;
+  }
+  .card3{
+
+margin-top: 60px;
+width: 340px;
+height: 940px;
+margin-left: -12px;
+  }
+  .content{
+    display: block;
+margin-left: 70px;
+  }
+  .content span{
+   margin-top: 20px;
+  }
+}

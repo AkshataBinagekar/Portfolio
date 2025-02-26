@@ -1,0 +1,58 @@
+.card2 {
+
+  
+    text-align: center;
+    padding: 20px;
+    background: #1A103D;
+    border-radius: 10px;
+    width: 26%;
+    height: 40%;
+    position: relative;
+    top: 60px;
+    left:30px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+    padding: 8px;
+  }
+
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info a{
+  text-decoration: none;
+  color: #B6B2C4;
+  margin-left: 15px;
+ 
+}
+.info a:hover{
+  color: #D26FB4;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin: 0;
+}
+
+.info i {
+    font-size: 16px;
+    color: #B6B2C4;
+}
+
+.info span {
+
+    font-size: 16px;
+   
+    cursor: pointer;
+}
