@@ -84,7 +84,7 @@ color: #D26FB4;
 @media (max-width: 480px) {
   .project{
     margin-top: -30px;
-margin-left: -20px;
+margin-left: -40px;
    display: block;
    width: auto;
    margin-bottom: 40px;
@@ -99,9 +99,9 @@ margin-left: -20px;
     display: block;
     margin-top: 100px;
    
-    width: 380px;
+    width: 340px;
     height:1340px;
-    margin-left: 10px;
+    margin-left: 40px;
  
   }
   
@@ -110,13 +110,13 @@ margin-left: -20px;
   display:block;
 
   height: 700px;
-  width: 320px;
+  width: 280px;
 }
 .box2{
   margin-top: 10px;
   display:flex;
   height: 470px;
-  width: 320px;
+  width: 280px;
 }
 .mini-box{
   margin-top: 15px;
@@ -124,6 +124,6 @@ margin-left: -20px;
   height: auto;
   width: 200px;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 }

@@ -66,7 +66,7 @@ margin-top: -500px;
 @media (max-width: 400px) {
     .education{
       margin-top: -30px;
-      margin-left: -20px;
+      margin-left: -40px;
      display: block;
      width: auto;
      height: auto;
@@ -82,9 +82,9 @@ margin-top: -500px;
       display: block;
       margin-top: 100px;
      
-      width: 380px;
+      width: 340px;
       height: auto;
-      margin-left: 10px;
+      margin-left: 40px;
    
     }
     .collage-img{
@@ -95,12 +95,12 @@ margin-top: -500px;
        
         margin-top: 15px;
      margin-left: -10px;
-       font-size: 14px;
+       font-size: 16px;
     }
     .card4{
   display: block;
   margin-top: 60px;
-  width: 345px;
+  width: 300px;
   height: auto;
   margin-left: -12px;
   margin-bottom: 20px;
