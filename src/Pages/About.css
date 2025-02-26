@@ -51,29 +51,10 @@ font-style: normal;
   font-style: normal;
 }
 
-/* @media (max-width: 768px) {
- 
-  .main{
-margin-left: 170px;
-margin-top: -20px;
-   display: block;
-   width: auto;
-  }
-  .card{
- 
-    display: block;
-   gap: 20px;
-  width: 1380px;
-  padding: 10px;
-  }
-  .about{
-    display: block;
- margin-top: 150px;
- 
-  }
-    } */
+
 
 @media (max-width: 480px) {
+
  
   .main{
 margin-top: -30px;
