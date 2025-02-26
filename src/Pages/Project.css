@@ -84,7 +84,7 @@ color: #D26FB4;
 @media (max-width: 480px) {
   .project{
     margin-top: -30px;
-margin-left: -10px;
+margin-left: -20px;
    display: block;
    width: auto;
    margin-bottom: 40px;
@@ -101,7 +101,7 @@ margin-left: -10px;
    
     width: 380px;
     height:1340px;
-    margin-left: 20px;
+    margin-left: 10px;
  
   }
   

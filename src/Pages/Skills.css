@@ -63,7 +63,7 @@ margin-top: -500px;
 @media (max-width: 480px) {
   .skills{
     margin-top: -30px;
-margin-left: -10px;
+margin-left: -20px;
    display: block;
    width: auto;
   }
@@ -79,7 +79,7 @@ margin-left: -10px;
    
     width: 380px;
     height: 1100px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .card3{
 
