@@ -1,3 +1,7 @@
+.main{
+  height: 927px;
+}
+
 .about{
     text-align: center;
  
@@ -97,9 +101,10 @@ margin-left: -40px;
       text-align: center;
     }
     }
-    @media (min-width: 1440px) and (max-width: 1920px) {
+    /* @media (min-width: 1440px) and (max-width: 1920px) {
       .main{
         margin-top: 330px;
+       
       }
   
       .about{
@@ -132,11 +137,12 @@ margin-left: -40px;
         font-size: 35px;
       
       }
-    }
+    } */
     @media (min-width: 1920px) and (max-width: 2560px) {
   .main{
     margin-top: 10px;
     margin-bottom: 20px;
+
   }
   /* .card{
     display: block;
