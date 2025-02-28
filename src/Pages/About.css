@@ -97,8 +97,43 @@ margin-left: -40px;
       text-align: center;
     }
     }
-
-@media (min-width: 1920px) and (max-width: 2560px) {
+    @media (min-width: 1440px) and (max-width: 1920px) {
+      .main{
+        margin-top: 330px;
+      }
+  
+      .about{
+        margin-top: -1250px;
+        width: 1100px;
+        height:  1140px;
+      
+      }
+      .intro{
+        margin-top: 110px;
+      }
+      .profileImg img{
+        margin-top: 140px;
+        height: 500px;
+        width: 380px;
+        align-items: center;
+        border:6px solid #D26FB4 ;
+      }
+      .aboutme h2{
+        margin-top: 20px;
+    font-size: 38px;
+    margin-bottom: 10px;
+      }
+      .aboutme span{
+        margin-bottom: 10px;
+    font-size: 28px;
+      }
+      .about p{
+        margin-top: 20px;
+        font-size: 35px;
+      
+      }
+    }
+/* @media (min-width: 1920px) and (max-width: 2560px) {
   .main{
     margin-top: 330px;
   }
@@ -138,4 +173,4 @@ font-size: 37px;
     font-size: 38px;
     line-height: 45px;
   }
-}
+} */
