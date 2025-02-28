@@ -133,27 +133,28 @@ margin-left: -40px;
       
       }
     }
-/* @media (min-width: 1920px) and (max-width: 2560px) {
+    @media (min-width: 1920px) and (max-width: 2560px) {
   .main{
-    margin-top: 330px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
-  .card{
+  /* .card{
     display: block;
     width: 2290px;
    height:  1290px;
 
-  }
+  } */
   .about{
     margin-top: -1250px;
-    width: 1290px;
-    height:  1160px;
+    width: 1100px;
+    height:  1140px;
   
   }
   .intro{
-    margin-top: 110px;
+    margin-top: 40px;
   }
   .profileImg img{
-    margin-top: 140px;
+    margin-top: 170px;
     height: 500px;
     width: 380px;
     align-items: center;
@@ -166,11 +167,11 @@ margin-bottom: 30px;
   }
   .aboutme span{
     margin-bottom: 30px;
-font-size: 37px;
+font-size: 27px;
   }
   .about p{
     margin-top: 20px;
-    font-size: 38px;
-    line-height: 45px;
+    font-size: 32px;
+    line-height: 35px;
   }
-} */
+}

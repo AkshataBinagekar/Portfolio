@@ -97,20 +97,20 @@ margin-left: 40px;
   }
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .skills{
     margin-top: 330px;
   }
 
-  .card{
+  /* .card{
     display: block;
     width: 2290px;
    height:  1290px;
 
-  }
+  } */
   .tech{
     margin-top: -1250px;
-    width: 1460px;
+    width: 1100px;
     height:  1160px;
   }
   .card3{
