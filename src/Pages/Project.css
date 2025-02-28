@@ -127,3 +127,29 @@ margin-left: -40px;
   margin-left: 20px;
 }
 }
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .project{
+    margin-top: 330px;
+  }
+
+  .card{
+    display: block;
+    width: 2290px;
+   height:  1290px;
+
+  }
+  .sample{
+    margin-top: -1250px;
+    width: 1460px;
+    height:  1160px;
+  }
+  .box1{
+    margin-top: 40px;
+  }
+  .mini-box a{
+
+  text-align: center;
+  align-items: center;
+  }
+}

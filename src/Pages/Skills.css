@@ -96,3 +96,37 @@ margin-left: 40px;
    margin-top: 20px;
   }
 }
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .skills{
+    margin-top: 330px;
+  }
+
+  .card{
+    display: block;
+    width: 2290px;
+   height:  1290px;
+
+  }
+  .tech{
+    margin-top: -1250px;
+    width: 1460px;
+    height:  1160px;
+  }
+  .card3{
+margin-top: 60px;
+width:1410px;
+  }
+  .content{
+font-size: 50px;
+line-height: 90px;
+gap: 20px;
+  }
+  .content span{
+ 
+    font-size: 35px;
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+  }
+}
