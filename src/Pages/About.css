@@ -100,12 +100,12 @@ margin-left: -40px;
     }
     }
    
-    @media (min-width: 1024px) {
+    @media (min-width: 1321px) {
   .main{
     margin-top: 10px;
     /* margin-bottom: 50px; */
-    width: auto;
-      height: 957px;
+  height: 957px;
+   
     
   }
   .card{

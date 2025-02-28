@@ -24,13 +24,13 @@ padding: 20px;
   }
   
 }
-@media (min-width: 1920px) and (max-width: 2560px) {
+@media (min-width: 1321px) and (max-width: 2560px) {
   .App {
     background-color: #130B30 !important;
     height: auto ;
-    /* width: 100vw !important;
+    width: 100vw !important;
     overflow-x: hidden !important;
-    overflow-y: auto; */
+    overflow-y: auto;
   }
 }
 
