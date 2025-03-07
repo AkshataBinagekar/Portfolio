@@ -1,4 +1,4 @@
-.card2 {
+/* .card2 {
 
   
     text-align: center;
@@ -55,49 +55,149 @@ font-style: normal;
     font-size: 16px;
    
     cursor: pointer;
+} */
+
+
+/* new css */
+.card2 {
+  text-align: center;
+  padding: 20px;
+  background: #1A103D;
+  border-radius: 10px;
+  width: 97%;
+  height: auto;
+  position: relative;
+  top: 20px;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
-  .card2{
-    margin-top: 30px;
-    width: 37%;
-  }
-  
-  .info span{
+/* Info Section */
+.info {
+  display: flex;
+  flex-direction: row; /* Stack elements vertically */
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 17px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #B6B2C4;
+  margin-left: 15px;
+  font-size: 16px;
  
-      font-size: 40px;
-  }
-  .info p {
-  font-size: 40px;
+}
+
+.info a:hover {
+  color: #D26FB4;
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 16px;
 }
 
 .info i {
-    font-size: 38px;
-  
-}
-.info a{
-  font-size: 38px;
-}
-}
-@media (min-width: 1920px) and (max-width: 2560px) {
-  .card2{
-    margin-top: 30px;
-    width: 30%;
-  }
-  
-  .info span{
- 
-      font-size: 40px;
-  }
-  .info p {
-  font-size: 40px;
+
+  font-size: 16px;
+  color: #B6B2C4;
 }
 
-.info i {
-    font-size: 38px;
+.info span {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .card2 {
+    width: 90%;
+    top: 40px;
+  }
+
+  .info {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+  }
+
+  .info a {
+    margin-left: 0;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card2 {
+    width: 100%;
+    top: 30px;
+  }
+
+  .info {
+    flex-direction: column;
+    text-align: center;
+    /* margin: 15px; */
+  }
+
+  .info a {
+    font-size: 14px;
+    margin-bottom: 5px;
+   
+  }
+
+  .info p {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .info i {
+    font-size: 14px;
+  }
+
+  .info span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card2 {
+    width: 97%;
+    top: 20px;
+    padding: 15px;
+  }
+
+  .info {
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+  }
+
+  .info a {
+    font-size: 12px;
+    margin-left: 15px
+  }
+
+  .info p {
+    font-size: 12px;
   
-}
-.info a{
-  font-size: 32px;
-}
+  }
+
+  .info i {
+    font-size: 12px;
+  }
+
+  .info span {
+    font-size: 12px;
+  }
 }

@@ -1,4 +1,4 @@
-.work{
+/* .work{
     text-align: center;
  
     padding-top: 20px;
@@ -15,7 +15,7 @@ margin-top: -500px;
 
 .work-experience1{
     display:block;
-    /* flex-wrap: wrap; */
+   
     text-align: center;
     padding: 10px;
     background: #130B30;
@@ -35,8 +35,7 @@ margin-top: -500px;
     gap: 10px;
 }
 .work-experience2{
-    display: block;
-    /* flex-wrap: wrap; */
+  
     text-align: center;
     padding: 10px;
     background: #130B30;
@@ -57,7 +56,7 @@ margin-top: -500px;
 }
 .work-experience3{
     display: block;
-    /* flex-wrap: wrap; */
+
     text-align: center;
     padding: 10px;
     background: #130B30;
@@ -76,113 +75,111 @@ margin-top: -500px;
     justify-content: space-between;
     gap: 10px;
 }
+ */
+/* new css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.experience{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.work {
+  text-align: center;
+  padding-top: 20px;
+  background: #1A103D;
+  border-radius: 10px;
+  max-width: 690px;
+  width: 100%;
+  min-height: 550px;
+  margin: 0 auto;
+
+  color: #B6B2C4;
+  font-family: Arial, sans-serif;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.work-experience1,
+.work-experience3 {
+  margin-top:30px ;
+    text-align: center;
+    padding: 10px;
+    background: #130B30;
+    border: 2px solid #D26FB4;
+    border-radius: 40px;
+    width: 60%;
+    margin-left: 0; 
+    color: #B6B2C4;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+}
+.work-experience2 {
+  margin-top:20px ;
+  text-align: center;
+  padding: 10px;
+  background: #130B30;
+  border: 2px solid #D26FB4;
+  border-radius: 40px;
+  width: 60%;
+  margin-left: auto; /* Right-aligned */
+  margin-right: 0;
+  color: #B6B2C4;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 30px;
+}
+
+
+@media (max-width: 1024px) {
+  .work {
+      width: 80%;
+      margin-top: 50px;
+  }
+
+  .work-experience1,
+  .work-experience2,
+  .work-experience3 {
+    margin-top: 60px;
+      width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+      width: 90%;
+      margin-top: 30px;
+  }
+
+  .work-experience1,
+  .work-experience2,
+  .work-experience3 {
+    margin-top: 60px;
+      width: 80%;
+  }
+}
 
 @media (max-width: 480px) {
-  .experience{
-    margin-top: -30px;
-margin-left: -40px;
-   display: block;
-   width: auto;
-   margin-bottom: 40px;
-  }
-  .card{
- 
-    display: block;
-  width: 1290px;
-  padding: 10px;
-  }
-  .work{
-    display: block;
-    margin-top: 100px;
-   
-    width: 340px;
-    height:1000px;
-    margin-left: 40px;
- 
-  }
-  
-  .work-experience1{
-  margin-top: 70px;
-  display:block;
-margin-left: -20px;
-height: 260px;
-  width: 200px;
-
-}
-.work-experience1 p,h4{
- 
-margin-top: 10px;
-
-}
-.work-experience2{
-  margin-top: 10px;
-  display:block;
-  margin-left:-110px;
-  height: 260px;
-  width: 200px;
-}
-.work-experience2 p,h4{
- 
-  margin-top: 18px;
-  
-  }
-.work-experience3{
-  margin-top: 10px;
-  margin-left: -20px;
-  display:block;
-  height: 260px;
-  width: 200px;
-}
-
-}
-
-@media (min-width: 1920px) and (max-width: 2560px) {
-  .experience{
-    margin-top: 330px;
+  .work {
+      width: 95%;
   }
 
-  .card{
-    display: block;
-    width: 2290px;
-   height:  1290px;
-
+  .work-experience1,
+  .work-experience2,
+  .work-experience3 {
+    margin-top: 60px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 8px;
   }
-  .work{
-    margin-top: -1250px;
-    width: 1460px;
-    height:  1160px;
-  }
-  .work-experience1{
-    margin-top: 70px;
-    display:block;
-  margin-left: 3px;
-  height: 260px;
-    width: 1100px;
-  }
-  .work-experience1,h4{
- font-size: 40px;
- line-height: 60px;
-  }
-  .work-experience2{
-    margin-top: 20px;
-    display:block;
-  margin-left: 100px;
-  height: 260px;
-    width: 1100px;
-  }
-  .work-experience2,h4{
-    font-size: 40px;
-    line-height: 60px;
-     }
-  .work-experience3{
-    margin-top: 20px;
-    display:block;
-    margin-left: 3px;
-  height: 260px;
-    width: 1100px;
-  }
-  .work-experience3,h4{
-    font-size: 40px;
-    line-height: 60px;
-     }
 }

@@ -23,13 +23,13 @@ function Skills() {
             <span><i class="fa-brands fa-css3 fa-lg"></i> CSS</span>
             <span> <i class="fa-brands fa-js fa-lg"></i> JAVASCRIPT</span>
           </div>
-          <div className="content">
+          <div className="content1">
             <p>Framework Tools:</p>
             <span><i class="fa-brands fa-react fa-lg"></i> REACT.JS </span>
             <span><i class="fa-brands fa-bootstrap fa-lg"></i> BOOTSTRAP </span>
             <span> <i class="fa-brands fa-node-js fa-lg"></i> NODE.JS </span>
             <span> <img width="20" height="20" src={materialui} alt="material-ui"/>MATERIAL.UI </span>
-            <span><img width="20" height="20" src="https://img.icons8.com/color/20/express-js.png" alt="express-js"/>EXPRESS.JS </span>
+            <span ><img width="20" height="20" src="https://img.icons8.com/color/20/express-js.png" alt="express-js"/>EXPRESS.JS </span>
           </div>
           <div className="content">
             <p>Database:</p>
