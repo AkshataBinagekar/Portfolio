@@ -5,6 +5,7 @@ function Card2() {
     <div className='card2'>
     <div className="info">
       <p><i className="fa-solid fa-location-dot"></i> Location:</p>
+    
       <span>Goa, India</span>
     </div>
     <div className="info">

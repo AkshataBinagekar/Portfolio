@@ -42,10 +42,10 @@ function Project() {
 <a href="https://skillboost-lyart.vercel.app/" target="_blank" rel="noopener noreferrer"> SKILLBOOST</a>
 </span>
 <span className='mini-box'>
-    portfolio
+<a href="https://akshata-portfolio-site.netlify.app/" target="_blank" rel="noopener noreferrer"> PORTFOLIO</a>
 </span>
 <span className='mini-box'>
-portfolio
+<a href="https://starlit-choux-a41abd.netlify.app/" target="_blank" rel="noopener noreferrer"> TODO-LIST</a>
 </span>
 </div>
       </div>
