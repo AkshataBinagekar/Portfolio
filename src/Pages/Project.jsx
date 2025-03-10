@@ -12,6 +12,19 @@ function Project() {
       </div>
       <div className='sample'>
 <Navbar/>
+<div className='box2'>
+<span className='mini-box'><a href="https://unrivaled-lily-6aae86.netlify.app/" target="_blank" rel="noopener noreferrer">E-COMMERCE </a></span>
+<span className='mini-box'>
+<a href="https://skillboost-lyart.vercel.app/" target="_blank" rel="noopener noreferrer"> SKILLBOOST</a>
+</span>
+<span className='mini-box'>
+<a href="https://akshata-portfolio-site.netlify.app/" target="_blank" rel="noopener noreferrer"> PORTFOLIO</a>
+</span>
+<span className='mini-box'>
+<a href="https://starlit-choux-a41abd.netlify.app/" target="_blank" rel="noopener noreferrer"> TODO-LIST</a>
+</span>
+</div>
+
 <div className='box1'>
 <span className='mini-box'>
 <a href="https://funny-fudge-69a0e3.netlify.app/" target="_blank" rel="noopener noreferrer">UI DESIGN 1</a>
@@ -35,18 +48,6 @@ function Project() {
 <a href="https://wondrous-gelato-f8c86d.netlify.app/" target="_blank" rel="noopener noreferrer">UI DESIGN 7</a>
 </span>
 
-</div>
-<div className='box2'>
-<span className='mini-box'><a href="https://unrivaled-lily-6aae86.netlify.app/" target="_blank" rel="noopener noreferrer">E-COMMERCE </a></span>
-<span className='mini-box'>
-<a href="https://skillboost-lyart.vercel.app/" target="_blank" rel="noopener noreferrer"> SKILLBOOST</a>
-</span>
-<span className='mini-box'>
-<a href="https://akshata-portfolio-site.netlify.app/" target="_blank" rel="noopener noreferrer"> PORTFOLIO</a>
-</span>
-<span className='mini-box'>
-<a href="https://starlit-choux-a41abd.netlify.app/" target="_blank" rel="noopener noreferrer"> TODO-LIST</a>
-</span>
 </div>
       </div>
     </div>
